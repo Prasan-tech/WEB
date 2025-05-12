@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <style>
+        h1{
+            font-size: large;
+            font-weight: 200;
+            font-style: bold;
+            text-align: center;
+        }
+       .audio-container {
+            display: flex;
+            justify-content: space-around;
+        }
+       .audio-container img {
+            width: 200px;
+            height: 200px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-width: 3%;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 5px solid #37bb4d;
+            border-radius: 2%;
+            border-style: dashed;
+            padding: 10px;
+            text-align: center;
+            font-style: bold;
+        }
+        th {
+            background-color: #85ff81;
+        }
+        h3{
+            font-size: larger;
+            font-style: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Media Elements Example</h1>
+    <div class="audio-container">
+        <div>
+            <img src="E:\WEB ESS\EX3\nenjame.jpg" alt="Nenjame image">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Nenjame Nenjame-Maamannan-A.r.rahman.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <img src="E:\WEB ESS\EX3\dil.jpeg" alt="Dilbechara image">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Dil-Bechara-A.r.rahman.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <img src="E:\WEB ESS\EX3\kadhal.jpeg" alt="Kadhal Oviyam image ">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Kadhal-Oviyam-MassTamilan.io.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <div class="audio-container">
+        <div>
+            <img src="E:\WEB ESS\EX3\7G.webp" alt="Kan Peasum Varthaigal image">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Kan Peasum Varthaigal.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <img src="E:\WEB ESS\EX3\96.jpg" alt="Vasantha_Kaalangal image ">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Vasantha_Kaalangal.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <img src="E:\WEB ESS\EX3\Nee.webp" alt="Nee-Kavithaigala image ">
+            <audio controls>
+                <source src="E:\WEB ESS\EX3\Nee-Kavithaigala.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Music Director</th>
+                    <th>Singers</th>
+                    <th>Movie Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>ARR</td>
+                    <td>Vijay,Shakthi sree</td>
+                    <td>Maamannan</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>02</td>
+                    <td>ARR</td>
+                    <td>Singer 1</td>
+                    <td>Dilbechara</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>03</td>
+                    <td>RAJA</td>
+                    <td>Ilayaraja</td>
+                    <td>Alaigal Oivadhillai</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>04</td>
+                    <td>U1</td>
+                    <td>Karthik</td>
+                    <td>7G Rainbow Colony</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>05</td>
+                    <td>GovindVasantha</td>
+                    <td>Chinmayi</td>
+                    <td>96</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>06</td>
+                    <td>Dhibu Ninan Thomas</td>
+                    <td>Pradeep Kumar</td>
+                    <td>Maragatha Nanayam</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>
+            Youtube Video
+        </h3>
+    </div>
+    <div style="text-align: center;">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/LcPmWu7HLhQ?si=iRhQPPa0HZtnuK3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>   
+</body>
+</html>
